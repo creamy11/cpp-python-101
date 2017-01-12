@@ -18,3 +18,4 @@
 ## Useful links
 1. http://www.numpy.org
 1. http://www.scipy.org
+1. https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts
