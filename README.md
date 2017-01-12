@@ -10,3 +10,7 @@
 ## Mac OS X
 1. `Terminal` -> run `python --version`
 1. Check python version.
+
+## Sublime Text 3
+1. https://www.sublimetext.com/3
+1. Install Sublime Text 3
