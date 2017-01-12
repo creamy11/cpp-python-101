@@ -14,3 +14,7 @@
 ## Sublime Text 3
 1. https://www.sublimetext.com/3
 1. Install Sublime Text 3
+
+## Useful links
+1. http://www.numpy.org
+1. http://www.scipy.org
