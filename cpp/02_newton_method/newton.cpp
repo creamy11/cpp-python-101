@@ -8,7 +8,7 @@ double f(double x)
 
 double df(double x)
 {
-	double dfval = 3.0 * x0 * x0 - 12.0 * x0 + 11.0;
+	double dfval = 3.0 * x * x - 12.0 * x + 11.0;
 	return dfval;
 }
 
