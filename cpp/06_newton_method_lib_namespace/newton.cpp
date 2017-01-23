@@ -1,0 +1,17 @@
+#include "newton.h"
+
+double NumericSolver::df(double (*func)(double), double x, double dx)
+{
+	double dfval = (func(x + dx) - func(x)) / dx;
+	return dfval;
+}
+
+double NumericSolver::newton(double (*func)(double), double x0, int maxIter)
+{
+	for (int i = 0; i < maxIter; ++i)
+	{
+		x0 = x0 - func(x0) / df(func, x0, 0.001);
+		printf("%d : %4.4f\n", i, x0);
+	}
+	return x0;
+}
