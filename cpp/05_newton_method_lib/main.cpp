@@ -1,7 +1,7 @@
 // g++ main.cpp newton.cpp -o main.x
 
 #include <stdio.h>
-#include <newton.h>
+#include "newton.h"
 
 double f(double x)
 {

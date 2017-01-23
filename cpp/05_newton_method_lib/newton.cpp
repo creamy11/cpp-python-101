@@ -1,4 +1,4 @@
-#include <newton.h>
+#include "newton.h"
 
 double df(double (*func)(double), double x, double dx)
 {
