@@ -1,7 +1,7 @@
 // g++ main.cpp -o main.x
 
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
 void f(double* in1, double* in2, double* out, int n)
 {
@@ -12,7 +12,7 @@ void f(double* in1, double* in2, double* out, int n)
 int main(int argc, char const *argv[])
 {
 	int N = 5;
-	if(argc > 2)
+	if(argc > 1)
 		N = atoi(argv[1]);
 
 	double* a = new double[N];
