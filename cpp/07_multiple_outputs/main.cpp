@@ -4,8 +4,8 @@
 
 void f(double x, double y, double* out1, double* out2)
 {
-	out1 = (x - 1.0) * (x - 2.0) * (x - 3.0);
-	out2 = 2 * (y - 1.0) * (y - 2.0) * (y - 3.0);
+	*out1 = (x - 1.0) * (x - 2.0) * (x - 3.0);
+	*out2 = 2 * (y - 1.0) * (y - 2.0) * (y - 3.0);
 }
 
 int main()
