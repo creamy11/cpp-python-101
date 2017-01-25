@@ -14,8 +14,8 @@ int main()
 	double y0 = 1.5;
 
 	double val1 = 0.0, val2 = 0.0;
-	printf("output = (%6.6f, %6.6f)\n", &val1, &val2);
-	f(x0, y0, val1, val2);
-	printf("output = (%6.6f, %6.6f)\n", &val1, &val2);
+	printf("output = (%6.6f, %6.6f)\n", val1, val2);
+	f(x0, y0, &val1, &val2);
+	printf("output = (%6.6f, %6.6f)\n", val1, val2);
 	return 0;
 }
