@@ -6,6 +6,8 @@
 
 typedef double (*newton)(double (*)(double), double, int);
 
+using namespace std;
+
 double f(double x)
 {
 	double fval = (x - 1.0) * (x - 2.0) * (x - 3.0);
