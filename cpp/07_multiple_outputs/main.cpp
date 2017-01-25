@@ -1,7 +1,6 @@
 // g++ main.cpp -o main.x
 
 #include <stdio.h>
-#include "newton.h"
 
 void f(double x, double y, double* out1, double* out2)
 {
