@@ -15,6 +15,9 @@
 1. Download installation file (https://www.sublimetext.com/3)
 1. Install Sublime Text 3
 
+## `gcc` and `g++` flag options
+1. https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options
+
 ## Useful links
 1. Numpy : http://www.numpy.org
 1. Scipy : http://www.scipy.org
