@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "newton.h"
 
-typedef double (*FUNC)(double (*)(double), double, int);
+typedef double (*newton)(double (*)(double), double, int);
 
 using namespace std;
 
@@ -24,7 +24,7 @@ int main()
 	if (err)
 		cout << "failed to open libyfem.so" <<  err << endl;;
 
-	FUNC doNewton = (FUNC) dlsym(handle, "newton");
+	newton doNewton = (newton) dlsym(handle, "newton");
 
 	err=dlerror();/*check for errors and copy error message*/
 	if (err)
