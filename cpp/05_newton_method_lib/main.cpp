@@ -22,13 +22,16 @@ int main()
 	void* handle = dlopen("./libnewton.so", RTLD_LAZY);
 	err=dlerror();/*check for errors and copy error message*/
 	if (err)
-		cout << "failed to open libyfem.so" <<  err << endl;;
+		cout << "failed to open libynewton.so" <<  err << endl;;
 
 	FUNC doNewton = (FUNC) dlsym(handle, "newton");
 
 	err=dlerror();/*check for errors and copy error message*/
 	if (err)
-		cout << "failed to locate hello_funcion()" <<  err << endl;;
+	{
+		cout << "failed to locate newton()" <<  err << endl;;
+		return 0;
+	}
 
 	cout << "Bye, world!" << endl;
 
