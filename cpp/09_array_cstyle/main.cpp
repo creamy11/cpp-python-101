@@ -1,5 +1,6 @@
 // g++ main.cpp -o main.x
 
+#include <stdlib.h>
 #include <stdio.h>
 
 int main()
