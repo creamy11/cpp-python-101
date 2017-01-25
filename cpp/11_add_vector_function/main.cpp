@@ -1,6 +1,7 @@
 // g++ main.cpp -o main.x
 
 #include <stdio.h>
+#include <string.h>
 
 void f(double* in1, double* in2, double* out, int n)
 {
