@@ -23,6 +23,8 @@ int main()
 	for (int i = 0; i < N; ++i)
 		printf("c[%d] = %4.4f\n", i, c[i]);
 
+	printf("\n\n");
+	
 	// add
 	for (int i = 0; i < N; ++i)
 		c[i] = a[i] + b[i];
