@@ -19,7 +19,13 @@
 1. https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options
 
 ## Useful links
+### Python Library
 1. Numpy : http://www.numpy.org
 1. Scipy : http://www.scipy.org
 1. Matplotlib : http://matplotlib.org/
+
+### SWIG
+1. http://www.swig.org/Doc1.3/Python.html#Python_nn7
+
+### Sublime Text
 1. [Sublime Text Guide Blog](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
