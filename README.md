@@ -25,7 +25,7 @@
 1. Matplotlib : http://matplotlib.org/
 
 ### SWIG
-1. http://www.swig.org/Doc1.3/Python.html#Python_nn7
+1. http://www.swig.org/Doc2.0/SWIGDocumentation.html#Introduction_nn8
 
 ### Sublime Text
 1. [Sublime Text Guide Blog](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
