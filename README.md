@@ -39,6 +39,7 @@
 1. Matplotlib : http://matplotlib.org/
 
 ### SWIG
+1. http://www.swig.org/Doc2.0/SWIGDocumentation.html#Python
 1. http://www.swig.org/Doc2.0/SWIGDocumentation.html#Introduction_nn8
 
 ### Sublime Text
